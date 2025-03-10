@@ -1,11 +1,11 @@
 /* Crea una funzione che accetta due parametri: firstName, lastName. La funzione dovrebbe restituire un oggetto con le proprietà firstName e lastName.
 Esporta la funzione dal file. */
 
-const fullName = ({ firstName, lastName }) => {
+const myName = (firstName, lastName) => {
     return {
-        firstName,
-        lastName
+        first: firstName,
+        last: lastName
     };
 };
 
-module.exports = { fullName };
+module.exports = { myName };
