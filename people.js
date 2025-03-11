@@ -6,11 +6,8 @@ const { myName } = require('./names.js');
 const { myHobbies } = require('./hobbies.js');
 
 const myFunction = () => {
-    const fullName = {
-        firstName: 'Joe',
-        lastName: 'Black'
-    };
-    const hobbies = ['Basket', 'Videogames','Go out with friends'];
+    const fullName = myName('Joe', 'Black')
+    const hobbies = myHobbies('Basket', 'Videogames', 'Go out with friends')
 
     return {
         fullName,

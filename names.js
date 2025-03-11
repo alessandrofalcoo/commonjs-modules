@@ -3,8 +3,8 @@ Esporta la funzione dal file. */
 
 const myName = (firstName, lastName) => {
     return {
-        first: firstName,
-        last: lastName
+        firstName: firstName,
+        lastName: lastName
     };
 };
 
